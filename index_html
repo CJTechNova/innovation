@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="HardwareStore - Tarjetas gráficas, procesadores, memoria RAM y portátiles."
+    >
+
+    <title>HardwareStore | Hardware de alto rendimiento</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header class="header">
+
+        <div class="container navbar">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">H</span>
+                <span>Hardware<span class="logo-accent">Store</span></span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+
+                <a href="index.html" class="nav-link active">
+                    Inicio
+                </a>
+
+                <a href="#categorias" class="nav-link">
+                    Categorías
+                </a>
+
+                <a href="#productos" class="nav-link">
+                    Productos
+                </a>
+
+                <a href="#ofertas" class="nav-link">
+                    Ofertas
+                </a>
+
+            </nav>
+
+            <div class="nav-actions">
+
+                <button class="icon-button" aria-label="Buscar">
+                    <span>⌕</span>
+                </button>
+
+                <button class="icon-button cart-button" aria-label="Carrito">
+                    <span>🛒</span>
+                    <span class="cart-count">0</span>
+                </button>
+
+                <button class="icon-button" aria-label="Cuenta">
+                    <span>👤</span>
+                </button>
+
+                <button
+                    class="menu-button"
+                    id="menuButton"
+                    aria-label="Abrir menú"
+                >
+                    ☰
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero">
+
+            <div class="hero-glow hero-glow-one"></div>
+            <div class="hero-glow hero-glow-two"></div>
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <div class="hero-badge">
+                        <span class="pulse"></span>
+                        Hardware de nueva generación
+                    </div>
+
+                    <h1>
+                        Lleva tu equipo
+                        <span>al siguiente nivel.</span>
+                    </h1>
+
+                    <p>
+                        Descubre tarjetas gráficas, procesadores, memoria RAM
+                        y portátiles diseñados para ofrecer el máximo rendimiento.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#productos" class="button button-primary">
+                            Explorar productos
+                            <span>→</span>
+                        </a>
+
+                        <a href="#categorias" class="button button-secondary">
+                            Ver categorías
+                        </a>
+
+                    </div>
+
+                    <div class="hero-stats">
+
+                        <div class="stat">
+                            <strong>500+</strong>
+                            <span>Productos</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>24h</strong>
+                            <span>Envíos rápidos</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>4.9/5</strong>
+                            <span>Valoración</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-product">
+
+                    <div class="product-glow"></div>
+
+                    <div class="hero-card">
+
+                        <span class="hero-card-label">
+                            DESTACADO
+                        </span>
+
+                        <div class="hero-product-image">
+                            <div class="gpu-placeholder">
+                                GPU
+                            </div>
+                        </div>
+
+                        <div class="hero-product-info">
+
+                            <span class="product-category">
+                                Tarjeta gráfica
+                            </span>
+
+                            <h2>
+                                RTX Performance Series
+                            </h2>
+
+                            <div class="hero-product-bottom">
+
+                                <strong>
+                                    699,99 €
+                                </strong>
+
+                                <button class="round-button">
+                                    →
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CATEGORÍAS
+        ========================== -->
+
+        <section class="section" id="categorias">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <span class="section-label">
+                            CATEGORÍAS
+                        </span>
+
+                        <h2>
+                            Encuentra tu próximo upgrade
+                        </h2>
+                    </div>
+
+                    <p>
+                        Todo lo que necesitas para construir
+                        o mejorar tu equipo.
+                    </p>
+
+                </div>
+
+
+                <div class="categories-grid">
+
+                    <a href="#" class="category-card category-gpu">
+
+                        <div class="category-icon">
+                            🎮
+                        </div>
+
+                        <div>
+                            <span>01</span>
+                            <h3>Tarjetas gráficas</h3>
+                            <p>Máximo rendimiento gráfico.</p>
+                        </div>
+
+                        <span class="category-arrow">→</span>
+
+                    </a>
+
+
+                    <a href="#" class="category-card category-cpu">
+
+                        <div class="category-icon">
+                            ⚡
+                        </div>
+
+                        <div>
+                            <span>02</span>
+                            <h3>Procesadores</h3>
+                            <p>Potencia para cualquier tarea.</p>
+                        </div>
+
+                        <span class="category-arrow">→</span>
+
+                    </a>
+
+
+                    <a href="#" class="category-card category-ram">
+
+                        <div class="category-icon">
+                            🧠
+                        </div>
+
+                        <div>
+                            <span>03</span>
+                            <h3>Memoria RAM</h3>
+                            <p>Velocidad y estabilidad.</p>
+                        </div>
+
+                        <span class="category-arrow">→</span>
+
+                    </a>
+
+
+                    <a href="#" class="category-card category-laptop">
+
+                        <div class="category-icon">
+                            💻
+                        </div>
+
+                        <div>
+                            <span>04</span>
+                            <h3>Portátiles</h3>
+                            <p>Potencia estés donde estés.</p>
+                        </div>
+
+                        <span class="category-arrow">→</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PRODUCTOS
+        ========================== -->
+
+        <section class="section products-section" id="productos">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <span class="section-label">
+                            SELECCIÓN
+                        </span>
+
+                        <h2>
+                            Productos destacados
+                        </h2>
+                    </div>
+
+                    <a href="#" class="view-all">
+                        Ver todos →
+                    </a>
+
+                </div>
+
+
+                <div class="products-grid">
+
+
+                    <!-- PRODUCTO 1 -->
+
+                    <article class="product-card">
+
+                        <div class="product-image">
+
+                            <span class="product-badge">
+                                NUEVO
+                            </span>
+
+                            <div class="product-placeholder gpu">
+                                GPU
+                            </div>
+
+                            <button
+                                class="favorite-button"
+                                aria-label="Añadir a favoritos"
+                            >
+                                ♡
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Tarjeta gráfica
+                            </span>
+
+                            <h3>
+                                RTX Gaming X 16GB
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★★
+                                <span>(124)</span>
+                            </div>
+
+                            <div class="product-footer">
+
+                                <div>
+                                    <span class="old-price">
+                                        749,99 €
+                                    </span>
+
+                                    <strong class="price">
+                                        699,99 €
+                                    </strong>
+                                </div>
+
+                                <button
+                                    class="add-cart"
+                                    aria
