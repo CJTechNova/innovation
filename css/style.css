@@ -83,9 +83,9 @@ img {
 }
 
 .logo-icon {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
+    width: 44px; 
+    height: 44px;
+    object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 0 18px rgba(59, 130, 246, 0.35);
 }
