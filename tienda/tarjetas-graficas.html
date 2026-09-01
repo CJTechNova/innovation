@@ -1,107 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Tarjetas gráficas — CJ TechNova</title>
-  <link rel="stylesheet" href="../css/variables.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/responsive.css">
-  <script src="../js/main.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjetas Gráficas | CJ TechNova</title>
 
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <script src="../js/main.js" defer></script>
 </head>
+
 <body>
 
-<header>
-  <a href="/index.html" class="logo">
-    <img src="/img/logoTechNova.png" class="logo-icon" alt="CJ TechNova">
-    <span class="logo-accent">TechNova</span>
-  </a>
+<header class="header">
+    <div class="container navbar">
 
-  <nav>
-    <ul>
-      <li><a href="/index.html">Inicio</a></li>
-      <li><a href="/tienda.html">Tienda</a></li>
-      <li><a href="/segunda-mano.html">Segunda mano</a></li>
-      <li><a href="/servicios.html">Servicios</a></li>
-      <li><a href="/nosotros.html">Nosotros</a></li>
-      <li><a href="/contacto.html">Contacto</a></li>
-    </ul>
-  </nav>
+        <a href="../index.html" class="logo">
+            <img src="../img/logoTechNova.jpeg" alt="CJ TechNova" class="logo-icon">
+            <span class="logo-accent">TechNova</span>
+        </a>
+
+        <nav class="nav-menu" id="navMenu">
+            <a href="../index.html" class="nav-link">Inicio</a>
+            <a href="../tienda.html" class="nav-link">Tienda</a>
+            <a href="../servicios.html" class="nav-link">Servicios</a>
+            <a href="../segunda-mano.html" class="nav-link">Segunda mano</a>
+            <a href="../nosotros.html" class="nav-link">Nosotros</a>
+            <a href="../contacto.html" class="nav-link">Contacto</a>
+
+            <a href="../legal/privacidad.html" class="nav-link">Privacidad</a>
+            <a href="../legal/aviso-legal.html" class="nav-link">Aviso legal</a>
+            <a href="../legal/cookies.html" class="nav-link">Cookies</a>
+            <a href="../legal/terminos.html" class="nav-link">Términos</a>
+            <a href="../legal/devoluciones.html" class="nav-link">Devoluciones</a>
+            <a href="../legal/garantias.html" class="nav-link">Garantías</a>
+            <a href="../legal/envios.html" class="nav-link">Envíos</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button class="icon-button"><span>⌕</span></button>
+            <button class="icon-button cart-button"><span>🛒</span><span class="cart-count">0</span></button>
+            <button class="icon-button"><span>👤</span></button>
+            <button class="menu-button" id="menuButton">☰</button>
+        </div>
+
+    </div>
 </header>
 
-<main>
-  <section class="section">
-    <h2>Tarjetas gráficas</h2>
-    <p>Encuentra tarjetas gráficas nuevas y de segunda mano para gaming, creación de contenido y diferentes necesidades de rendimiento.</p>
-
-    <h3>Información de producto</h3>
-    <ul>
-      <li>Marca</li>
-      <li>Modelo</li>
-      <li>VRAM</li>
-      <li>Estado</li>
-      <li>Precio</li>
-      <li>Disponibilidad</li>
-      <li>Fotografías</li>
-      <li>Descripción</li>
-      <li>Garantía aplicable</li>
-    </ul>
-  </section>
-</main>
-
-<footer>
-  <div class="footer-grid">
-    <div>
-      <h3>CJ TECHNOVA</h3>
-      <p>Tu tecnología. Nuestra experiencia.</p>
-    </div>
-
-    <div>
-      <h4>Componentes</h4>
-      <ul>
-        <li><a href="/tienda/tarjetas-graficas.html">Tarjetas gráficas</a></li>
-        <li><a href="/tienda/procesadores.html">Procesadores</a></li>
-        <li><a href="/tienda/placas-base.html">Placas base</a></li>
-        <li><a href="/tienda/memoria-ram.html">Memoria RAM</a></li>
-        <li><a href="/tienda/ssd.html">SSD</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <h4>Servicios</h4>
-      <ul>
-        <li><a href="/servicios/asesoria.html">Asesoría</a></li>
-        <li><a href="/servicios/presupuesto.html">Presupuestos</a></li>
-        <li><a href="/servicios/buscar.html">Buscamos tu componente</a></li>
-        <li><a href="/servicios/vende.html">Vende tu hardware</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <h4>CJ TechNova</h4>
-      <ul>
-        <li><a href="/nosotros.html">Nosotros</a></li>
-        <li><a href="/contacto.html">Contacto</a></li>
-        <li><a href="/legal/envios.html">España / Ecuador</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <h4>Legal</h4>
-      <ul>
-        <li><a href="/legal/aviso-legal.html">Aviso legal</a></li>
-        <li><a href="/legal/privacidad.html">Privacidad</a></li>
-        <li><a href="/legal/cookies.html">Cookies</a></li>
-        <li><a href="/legal/terminos.html">Términos y condiciones</a></li>
-        <li><a href="/legal/devoluciones.html">Devoluciones</a></li>
-        <li><a href="/legal/garantias.html">Garantías</a></li>
-        <li><a href="/legal/envios.html">Envíos</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <p class="footer-copy">© 2026 CJ TechNova. Todos los derechos reservados.</p>
-</footer>
-
-</body>
-</html>
+<main class="container section">
+    <h1>Tarjetas Gráficas</
