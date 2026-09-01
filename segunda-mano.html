@@ -2,37 +2,77 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Segunda mano — CJ TechNova</title>
+  <title>Segunda Mano — CJ TechNova</title>
+
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
+
   <script src="js/main.js" defer></script>
-
-
 </head>
+
 <body>
 
-<header>…</header>
+<header class="header">
+  <div class="container navbar">
+
+    <a href="index.html" class="logo">
+      <img src="img/logoTechNova.jpeg" alt="CJ TechNova" class="logo-icon">
+      <span class="logo-accent">TechNova</span>
+    </a>
+
+    <nav class="nav-menu" id="navMenu">
+      <a href="index.html" class="nav-link">Inicio</a>
+      <a href="tienda.html" class="nav-link">Tienda</a>
+      <a href="servicios.html" class="nav-link">Servicios</a>
+      <a href="segunda-mano.html" class="nav-link active">Segunda mano</a>
+      <a href="nosotros.html" class="nav-link">Nosotros</a>
+      <a href="contacto.html" class="nav-link">Contacto</a>
+
+      <a href="legal/privacidad.html" class="nav-link">Privacidad</a>
+      <a href="legal/aviso-legal.html" class="nav-link">Aviso legal</a>
+      <a href="legal/cookies.html" class="nav-link">Cookies</a>
+      <a href="legal/terminos.html" class="nav-link">Términos</a>
+      <a href="legal/envios.html" class="nav-link">Envíos</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="icon-button"><span>⌕</span></button>
+      <button class="icon-button cart-button"><span>🛒</span><span class="cart-count">0</span></button>
+      <button class="icon-button"><span>👤</span></button>
+      <button class="menu-button" id="menuButton">☰</button>
+    </div>
+
+  </div>
+</header>
 
 <main>
   <section class="section">
-    <h2>Hardware de segunda mano</h2>
-    <p>Dale una segunda vida a la tecnología.</p>
-
-    <div class="grid">
-      <a href="/tienda/tarjetas-graficas.html" class="card">Tarjetas gráficas</a>
-      <a href="/tienda/procesadores.html" class="card">Procesadores</a>
-      <a href="/tienda/placas-base.html" class="card">Placas base</a>
-      <a href="/tienda/memoria-ram.html" class="card">Memoria RAM</a>
-      <a href="/tienda/ssd.html" class="card">SSD</a>
-    </div>
-
-    <h3>Transparencia</h3>
-    <p>Proporcionamos información sobre estado, funcionamiento, fotografías y detalles relevantes antes de la compra.</p>
+    <h2>Segunda Mano</h2>
+    <p>Productos usados revisados y garantizados.</p>
   </section>
 </main>
 
-<footer>…</footer>
+<footer class="footer">
+  <div class="container footer-content">
+
+    <div class="footer-logo">
+      <img src="img/logoTechNova.jpeg" alt="CJ TechNova" class="logo-icon">
+      <span class="logo-accent">TechNova</span>
+    </div>
+
+    <div class="footer-links">
+      <a href="legal/privacidad.html">Privacidad</a>
+      <a href="legal/aviso-legal.html">Aviso legal</a>
+      <a href="legal/cookies.html">Cookies</a>
+      <a href="legal/terminos.html">Términos</a>
+      <a href="legal/envios.html">Envíos</a>
+    </div>
+
+    <p class="footer-copy">© 2026 CJ TechNova — Todos los derechos reservados.</p>
+
+  </div>
+</footer>
 
 </body>
 </html>
